@@ -1,0 +1,2063 @@
+@charset "utf-8";
+/* CSS Document */
+.row:after,.row:before{content:"";display: table}
+.row:after{clear:both;}
+
+@media screen and (max-width: 599px){
+	.head{
+		width:70%;
+		height:auto;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.logo{
+		width:20%;
+		float:left;
+		height:auto;
+	}
+	.menuul{
+		font-size:0px;
+	}
+	.bannerout{
+		width:70%;
+		height:auto;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.banner{
+		width:100%;
+		height:auto;
+		max-width:100%;
+	}
+	.container{
+		width:70%;
+		height:auto;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.project1{
+		width:90%;
+		height:auto;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:3%;
+		position:relative;
+	    display:block;
+	}
+	.project2{
+		width:90%;
+		height:auto;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:3%;
+		position:relative;
+	    display:block;
+	}
+	.project3{
+		width:90%;
+		height:auto;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:3%;
+		position:relative;
+	    display:block;
+	}
+	.project4{
+		width:90%;
+		height:auto;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:3%;
+		position:relative;
+	    display:block;
+	}
+	.project5{
+		width:90%;
+		height:auto;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:3%;
+		position:relative;
+	    display:block;
+	}
+	.project6{
+		width:90%;
+		height:auto;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:3%;
+		position:relative;
+	    display:block;
+	}
+	.project7{
+		width:90%;
+		height:auto;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:3%;
+		position:relative;
+	    display:block;
+	}
+	.project8{
+		width:90%;
+		height:auto;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:3%;
+		position:relative;
+	    display:block;
+	}
+	.t1{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    }
+	.t2{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+	}
+	.t3{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+	}
+	.t4{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+	}
+	.t5{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+	}
+	.t6{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+	}
+	.t7{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+	}
+	.t8{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+	}
+	.photo1{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.photo2{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.photo3{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.photo4{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.photo5{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.photo6{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.photo7{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.photo8{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.text{
+    background-color:rgba(232,160,160,1.00);
+    padding:15px 30px;
+	color:rgba(255,255,255,1.00);
+	font-size:18px;
+    }
+	.project1:hover .photo1{
+	opacity:0.3;
+    }
+
+    .project1:hover .t1{
+	opacity:1;
+    }
+	.project2:hover .photo2{
+	opacity:0.3;
+    }
+
+    .project2:hover .t2{
+	opacity:1;
+    }
+	.project3:hover .photo3{
+	opacity:0.3;
+    }
+
+    .project3:hover .t3{
+	opacity:1;
+    }
+	.project4:hover .photo4{
+	opacity:0.3;
+    }
+
+    .project4:hover .t4{
+	opacity:1;
+    }
+	.project5:hover .photo5{
+	opacity:0.3;
+    }
+
+
+    .project5:hover .t5{
+	opacity:1;
+    }
+	.project6:hover .photo6{
+	opacity:0.3;
+    }
+
+    .project6:hover .t6{
+	opacity:1;
+    }
+	.project7:hover .photo7{
+	opacity:0.3;
+    }
+
+    .project7:hover .t7{
+	opacity:1;
+    }
+	.project8:hover .photo8{
+	opacity:0.3;
+    }
+
+    .project8:hover .t8{
+	opacity:1;
+    }
+	.foottext{
+		display:none;
+	}
+	.foot{
+		width:100%;
+		height:100px;
+		background-color:rgba(249,228,220,1.00);
+	}
+	.footmenuul{
+		list-style-type:none;
+		width:70%;
+		font-size:22px;
+		padding-top:45px;
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+	.menuli1{
+		display:inline-block;
+		float:left;
+		padding-left:5%
+	}
+	.menuli2{
+		display:inline-block;
+		padding-left:5%;
+		float:left;
+		
+	}
+	.menuli3{
+		display:inline-block;
+		padding-left:5%;
+		float:left;
+		
+	}
+	.menuli4{
+		display:inline-block;	
+		float:left;	
+		padding-left:5%;
+	}
+}
+/*以上是599以下的尺寸*/
+@media screen and (min-width: 600px) and (max-width: 799px) {
+	.head{
+		width:70%;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.logo{
+		width:20%;
+		height:auto;
+		float:left;
+	}
+	.menuul{
+		width:80%;
+		font-size:0px;
+	}
+	.bannerout{
+		width:70%;
+		height:auto;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.banner{
+		width:100%;
+		height:auto;
+		max-width:100%;
+	}
+	.container{
+		width:70%;
+		height:auto;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.project1{
+		width:90%;
+		height:auto;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:3%;
+		position:relative;
+	    display:block;
+	}
+	.project2{
+		width:90%;
+		height:auto;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:3%;
+		position:relative;
+	    display:block;
+	}
+	.project3{
+		width:90%;
+		height:auto;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:3%;
+		position:relative;
+	    display:block;
+	}
+	.project4{
+		width:90%;
+		height:auto;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:3%;
+		position:relative;
+	    display:block;
+	}
+	.project5{
+		width:90%;
+		height:auto;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:3%;
+		position:relative;
+	    display:block;
+	}
+	.project6{
+		width:90%;
+		height:auto;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:3%;
+		position:relative;
+	    display:block;
+	}
+	.project7{
+		width:90%;
+		height:auto;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:3%;
+		position:relative;
+	    display:block;
+	}
+	.project8{
+		width:90%;
+		height:auto;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:3%;
+		position:relative;
+	    display:block;
+	}
+	.t1{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    }
+	.t2{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+	}
+	.t3{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+	}
+	.t4{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+	}
+	.t5{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+	}
+	.t6{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+	}
+	.t7{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+	}
+	.t8{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+	}
+	.photo1{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.photo2{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.photo3{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.photo4{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.photo5{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.photo6{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.photo7{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.photo8{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.text{
+    background-color:rgba(232,160,160,1.00);
+    padding:15px 30px;
+	color:rgba(255,255,255,1.00);
+	font-size:18px;
+    }
+	.project1:hover .photo1{
+	opacity:0.3;
+    }
+
+    .project1:hover .t1{
+	opacity:1;
+    }
+	.project2:hover .photo2{
+	opacity:0.3;
+    }
+
+    .project2:hover .t2{
+	opacity:1;
+    }
+	.project3:hover .photo3{
+	opacity:0.3;
+    }
+
+    .project3:hover .t3{
+	opacity:1;
+    }
+	.project4:hover .photo4{
+	opacity:0.3;
+    }
+
+    .project4:hover .t4{
+	opacity:1;
+    }
+	.project5:hover .photo5{
+	opacity:0.3;
+    }
+
+
+    .project5:hover .t5{
+	opacity:1;
+    }
+	.project6:hover .photo6{
+	opacity:0.3;
+    }
+
+    .project6:hover .t6{
+	opacity:1;
+    }
+	.project7:hover .photo7{
+	opacity:0.3;
+    }
+
+    .project7:hover .t7{
+	opacity:1;
+    }
+	.project8:hover .photo8{
+	opacity:0.3;
+    }
+
+    .project8:hover .t8{
+	opacity:1;
+    }
+	.foottext{
+		display:none;
+	}
+	.foot{
+		width:100%;
+		height:100px;
+		background-color:rgba(249,228,220,1.00);
+	}
+	.footmenuul{
+		list-style-type:none;
+		width:70%;
+		font-size:22px;
+		padding-top:45px;
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+	.menuli1{
+		display:inline-block;
+		float:left;
+		padding-left:6%
+	}
+	.menuli2{
+		display:inline-block;
+		padding-left:10%;
+		float:left;
+		
+	}
+	.menuli3{
+		display:inline-block;
+		padding-left:10%;
+		float:left;
+		
+	}
+	.menuli4{
+		display:inline-block;	
+		float:left;	
+		padding-left:10%;
+	}
+}
+/*以上是600~799px的尺寸*/
+@media screen and (min-width: 800px) and (max-width: 914px) {
+	.head{
+		width:70%;
+		margin-left:auto;
+		margin-right:auto;
+		height:auto;
+	}
+	.logo{
+		width:20%;
+		height:auto;
+		float:left;
+	}
+	.menuul{
+		display:none;
+	}
+	.bannerout{
+		width:70%;
+		height:auto;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.banner{
+		width:100%;
+		height:auto;
+		max-width:100%;
+	}
+	.container{
+		width:70%;
+		height:auto;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.project1{
+		width:80%;
+		height:auto;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:3%;
+		position:relative;
+	    display:block;
+	}
+	.project2{
+		width:80%;
+		height:auto;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:3%;
+		position:relative;
+	    display:block;
+	}
+	.project3{
+		width:80%;
+		height:auto;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:3%;
+		position:relative;
+	    display:block;
+	}
+	.project4{
+		width:80%;
+		height:auto;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:3%;
+		position:relative;
+	    display:block;
+	}
+	.project5{
+		width:80%;
+		height:auto;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:3%;
+		position:relative;
+	    display:block;
+	}
+	.project6{
+		width:80%;
+		height:auto;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:3%;
+		position:relative;
+	    display:block;
+	}
+	.project7{
+		width:80%;
+		height:auto;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:3%;
+		position:relative;
+	    display:block;
+	}
+	.project8{
+		width:80%;
+		height:auto;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:3%;
+		position:relative;
+	    display:block;
+	}
+	.t1{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    }
+	.t2{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+	}
+	.t3{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+	}
+	.t4{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+	}
+	.t5{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+	}
+	.t6{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+	}
+	.t7{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+	}
+	.t8{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+	}
+	.photo1{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.photo2{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.photo3{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.photo4{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.photo5{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.photo6{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.photo7{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.photo8{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.text{
+    background-color:rgba(232,160,160,1.00);
+    padding:15px 30px;
+	color:rgba(255,255,255,1.00);
+	font-size:18px;
+    }
+	.project1:hover .photo1{
+	opacity:0.3;
+    }
+
+    .project1:hover .t1{
+	opacity:1;
+    }
+	.project2:hover .photo2{
+	opacity:0.3;
+    }
+
+    .project2:hover .t2{
+	opacity:1;
+    }
+	.project3:hover .photo3{
+	opacity:0.3;
+    }
+
+    .project3:hover .t3{
+	opacity:1;
+    }
+	.project4:hover .photo4{
+	opacity:0.3;
+    }
+
+    .project4:hover .t4{
+	opacity:1;
+    }
+	.project5:hover .photo5{
+	opacity:0.3;
+    }
+
+
+    .project5:hover .t5{
+	opacity:1;
+    }
+	.project6:hover .photo6{
+	opacity:0.3;
+    }
+
+    .project6:hover .t6{
+	opacity:1;
+    }
+	.project7:hover .photo7{
+	opacity:0.3;
+    }
+
+    .project7:hover .t7{
+	opacity:1;
+    }
+	.project8:hover .photo8{
+	opacity:0.3;
+    }
+
+    .project8:hover .t8{
+	opacity:1;
+    }
+	.foottext{
+		display:none;
+	}
+	.foot{
+		width:100%;
+		height:100px;
+		background-color:rgba(249,228,220,1.00);
+	}
+	.footmenuul{
+		list-style-type:none;
+		width:70%;
+		font-size:22px;
+		padding-top:45px;
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+	.menuli1{
+		display:inline-block;
+		float:left;
+	}
+	.menuli2{
+		display:inline-block;
+		padding-left:19%;
+		float:left;
+		
+	}
+	.menuli3{
+		display:inline-block;
+		padding-left:19%;
+		float:left;
+		
+	}
+	.menuli4{
+		display:inline-block;	
+		float:left;	
+		padding-left:19%;
+	}
+}
+/*以上是800px~914px的螢幕尺寸*/
+@media screen and (min-width: 915px) and (max-width: 1080px) {
+.head{
+	width:69%;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+.logo{
+		width:20%;
+		height:auto;
+		max-width:100%;
+		float:left;
+	}
+	.menuul{
+		list-style-type:none;
+		width:80%;
+		font-size:20px;
+		padding-top:70px;
+		text-align:center;
+		margin-left:140px;
+	}
+	.menuli1{
+		display:inline-block;
+		padding-right:13%;
+	}
+	.menuli2{
+		display:inline-block;
+		padding-right:13%;
+		
+	}
+	.menuli3{
+		display:inline-block;
+		padding-right:13%;
+		
+	}
+	.menuli4{
+		display:inline-block;		
+	}
+	.bannerout{
+		width:70%;
+		height:auto;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.banner{
+		width:100%;
+		height:auto;
+		max-width:100%;
+	}
+	.container{
+		width:70%;
+		height:auto;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.project1{
+		width:46%;
+		height:auto;
+		margin-left:2%;
+		margin-top:3%;
+		float:left;
+		position:relative;
+	    display:block;
+	}
+	.project2{
+		width:46%;
+		height:auto;
+		margin-left:2%;
+		margin-top:3%;
+		float:left;
+		position:relative;
+	    display:block;
+	}
+	.project3{
+		width:46%;
+		height:auto;
+		margin-left:2%;
+		margin-top:3%;
+		float:left;
+		position:relative;
+	    display:block;
+	}
+	.project4{
+		width:46%;
+		height:auto;
+		margin-left:2%;
+		margin-top:3%;
+		float:left;
+		position:relative;
+	    display:block;
+	}
+	.project5{
+		width:46%;
+		height:auto;
+		margin-left:2%;
+		margin-top:3%;
+		float:left;
+		position:relative;
+	    display:block;
+	}
+	.project6{
+		width:46%;
+		height:auto;
+		margin-left:2%;
+		margin-top:3%;
+		float:left;
+		position:relative;
+	    display:block;
+	}
+	.project7{
+		width:46%;
+		height:auto;
+		margin-left:2%;
+		margin-top:3%;
+		float:left;
+		position:relative;
+	    display:block;
+	}
+	.project8{
+		width:46%;
+		height:auto;
+		margin-left:2%;
+		margin-top:3%;
+		float:left;
+		position:relative;
+	    display:block;
+	}
+		.t1{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    }
+	.t2{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+	}
+	.t3{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+	}
+	.t4{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+	}
+	.t5{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+	}
+	.t6{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+	}
+	.t7{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+	}
+	.t8{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+	}
+	.photo1{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.photo2{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.photo3{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.photo4{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.photo5{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.photo6{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.photo7{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.photo8{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.text{
+    background-color:rgba(232,160,160,1.00);
+    padding:14px 32px;
+	color:rgba(255,255,255,1.00);
+	font-size:16px;
+    }
+	.project1:hover .photo1{
+	opacity:0.3;
+    }
+
+    .project1:hover .t1{
+	opacity:1;
+    }
+	.project2:hover .photo2{
+	opacity:0.3;
+    }
+
+    .project2:hover .t2{
+	opacity:1;
+    }
+	.project3:hover .photo3{
+	opacity:0.3;
+    }
+
+    .project3:hover .t3{
+	opacity:1;
+    }
+	.project4:hover .photo4{
+	opacity:0.3;
+    }
+
+    .project4:hover .t4{
+	opacity:1;
+    }
+	.project5:hover .photo5{
+	opacity:0.3;
+    }
+
+
+    .project5:hover .t5{
+	opacity:1;
+    }
+	.project6:hover .photo6{
+	opacity:0.3;
+    }
+
+    .project6:hover .t6{
+	opacity:1;
+    }
+	.project7:hover .photo7{
+	opacity:0.3;
+    }
+
+    .project7:hover .t7{
+	opacity:1;
+    }
+	.project8:hover .photo8{
+	opacity:0.3;
+    }
+
+    .project8:hover .t8{
+	opacity:1;
+    }
+	.foottext{
+		font-size:16px;
+		text-align:center;
+		padding-top:50px;
+		margin-top:5%;
+	}
+	.foot{
+		width:100%;
+		height:100px;
+		background-color:rgba(249,228,220,1.00);
+	}
+	.footmenuul{
+		display:none;
+	}
+}
+/*以上是915px~1080px的螢幕尺寸*/
+@media screen and (min-width:1081px) and (max-width: 1499px){
+	.head{
+		width:70%;
+		height:auto;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.logo{
+		width:20%;
+		max-width:100%;
+		height:auto;
+		float:left;
+	}
+	.menuul{
+		width:80%;
+		text-align:center;
+		list-style-type:none;
+		font-size:20px;
+		padding-top:7%;
+		margin-left:7%;
+	}
+	.menuli1{
+		display:inline-block;
+		padding-left:8%;
+	}
+	.menuli2{
+		display:inline-block;
+		padding-left:8%;
+	}
+	.menuli3{
+		display:inline-block;
+		padding-left:8%;
+	}
+	.menuli4{
+		display:inline-block;
+		padding-left:8%;
+	}
+	.bannerout{
+		width:70%;
+		height:auto;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.banner{
+		width:100%;
+		height:auto;
+		max-width:100%;
+	}
+	.container{
+		width:70%;
+		height:auto;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.project1{
+		width:46%;
+		height:auto;
+		margin-left:2%;
+		margin-top:3%;
+		float:left;
+		position:relative;
+	    display:block;
+	}
+	.project2{
+		width:46%;
+		height:auto;
+		margin-left:2%;
+		margin-top:3%;
+		float:left;
+		position:relative;
+	    display:block;
+	}
+	.project3{
+		width:46%;
+		height:auto;
+		margin-left:2%;
+		margin-top:3%;
+		float:left;
+		position:relative;
+	    display:block;
+	}
+	.project4{
+		width:46%;
+		height:auto;
+		margin-left:2%;
+		margin-top:3%;
+		float:left;
+		position:relative;
+	    display:block;
+	}
+	.project5{
+		width:46%;
+		height:auto;
+		margin-left:2%;
+		margin-top:3%;
+		float:left;
+		position:relative;
+	    display:block;
+	}
+	.project6{
+		width:46%;
+		height:auto;
+		margin-left:2%;
+		margin-top:3%;
+		float:left;
+		position:relative;
+	    display:block;
+	}
+	.project7{
+		width:46%;
+		height:auto;
+		margin-left:2%;
+		margin-top:3%;
+		float:left;
+		position:relative;
+	    display:block;
+	}
+	.project8{
+		width:46%;
+		height:auto;
+		margin-left:2%;
+		margin-top:3%;
+		float:left;
+		position:relative;
+	    display:block;
+	}
+		.t1{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    }
+	.t2{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+	}
+	.t3{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+	}
+	.t4{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+	}
+	.t5{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+	}
+	.t6{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+	}
+	.t7{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+	}
+	.t8{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+	}
+	.photo1{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.photo2{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.photo3{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.photo4{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.photo5{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.photo6{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.photo7{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.photo8{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.text{
+    background-color:rgba(232,160,160,1.00);
+    padding:18px 36px;
+	color:rgba(255,255,255,1.00);
+	font-size:18px;
+    }
+	.project1:hover .photo1{
+	opacity:0.3;
+    }
+
+    .project1:hover .t1{
+	opacity:1;
+    }
+	.project2:hover .photo2{
+	opacity:0.3;
+    }
+
+    .project2:hover .t2{
+	opacity:1;
+    }
+	.project3:hover .photo3{
+	opacity:0.3;
+    }
+
+    .project3:hover .t3{
+	opacity:1;
+    }
+	.project4:hover .photo4{
+	opacity:0.3;
+    }
+
+    .project4:hover .t4{
+	opacity:1;
+    }
+	.project5:hover .photo5{
+	opacity:0.3;
+    }
+
+
+    .project5:hover .t5{
+	opacity:1;
+    }
+	.project6:hover .photo6{
+	opacity:0.3;
+    }
+
+    .project6:hover .t6{
+	opacity:1;
+    }
+	.project7:hover .photo7{
+	opacity:0.3;
+    }
+
+    .project7:hover .t7{
+	opacity:1;
+    }
+	.project8:hover .photo8{
+	opacity:0.3;
+    }
+
+    .project8:hover .t8{
+	opacity:1;
+    }
+	.foottext{
+		font-size:18px;
+		text-align:center;
+		padding-top:50px;
+		margin-top:5%;
+	}
+	.foot{
+		width:100%;
+		height:100px;
+		background-color:rgba(249,228,220,1.00);
+	}
+	.footmenuul{
+		display:none;
+	}
+}
+/*以上是1081px~1499px的螢幕尺寸*/
+@media screen and (min-width: 1500px) {
+	.head{
+		width:70%;
+		height:auto;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.logo{
+		width:20%;
+		max-width:20%;
+		height:auto;
+		float:left;
+		max-width:100%;
+	}
+	.menuul{
+		list-style-type:none;
+		width:80%;
+		font-size:22px;
+		padding-top:50px;
+		text-align:center;
+	}
+	.menuli1{
+		display:inline-block;
+		padding-right:13%;
+	}
+	.menuli2{
+		display:inline-block;
+		padding-right:13%;
+		
+	}
+	.menuli3{
+		display:inline-block;
+		padding-right:13%;
+		
+	}
+	.menuli4{
+		display:inline-block;		
+	}
+	.bannerout{
+		width:70%;
+		height:auto;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.banner{
+		width:100%;
+		height:auto;
+		max-width:100%;
+	}
+	.container{
+		width:70%;
+		height:auto;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.project1{
+		width:46%;
+		height:auto;
+		margin-left:2%;
+		margin-top:3%;
+		float:left;
+		position:relative;
+	    display:block;
+	}
+	.project2{
+		width:46%;
+		height:auto;
+		margin-left:2%;
+		margin-top:3%;
+		float:left;
+		position:relative;
+	    display:block;
+	}
+	.project3{
+		width:46%;
+		height:auto;
+		margin-left:2%;
+		margin-top:3%;
+		float:left;
+		position:relative;
+	    display:block;
+	}
+	.project4{
+		width:46%;
+		height:auto;
+		margin-left:2%;
+		margin-top:3%;
+		float:left;
+		position:relative;
+	    display:block;
+	}
+	.project5{
+		width:46%;
+		height:auto;
+		margin-left:2%;
+		margin-top:3%;
+		float:left;
+		position:relative;
+	    display:block;
+	}
+	.project6{
+		width:46%;
+		height:auto;
+		margin-left:2%;
+		margin-top:3%;
+		float:left;
+		position:relative;
+	    display:block;
+	}
+	.project7{
+		width:46%;
+		height:auto;
+		margin-left:2%;
+		margin-top:3%;
+		float:left;
+		position:relative;
+	    display:block;
+	}
+	.project8{
+		width:46%;
+		height:auto;
+		margin-left:2%;
+		margin-top:3%;
+		float:left;
+		position:relative;
+	    display:block;
+	}
+		.t1{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    }
+	.t2{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+	}
+	.t3{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+	}
+	.t4{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+	}
+	.t5{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+	}
+	.t6{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+	}
+	.t7{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+	}
+	.t8{
+	top:55%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+	}
+	.photo1{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.photo2{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.photo3{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.photo4{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.photo5{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.photo6{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.photo7{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.photo8{
+	width:100%;
+	height:auto;
+	opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+	.text{
+    background-color:rgba(232,160,160,1.00);
+    padding:18px 36px;
+	color:rgba(255,255,255,1.00);
+	font-size:18px;
+    }
+	.project1:hover .photo1{
+	opacity:0.3;
+    }
+
+    .project1:hover .t1{
+	opacity:1;
+    }
+	.project2:hover .photo2{
+	opacity:0.3;
+    }
+
+    .project2:hover .t2{
+	opacity:1;
+    }
+	.project3:hover .photo3{
+	opacity:0.3;
+    }
+
+    .project3:hover .t3{
+	opacity:1;
+    }
+	.project4:hover .photo4{
+	opacity:0.3;
+    }
+
+    .project4:hover .t4{
+	opacity:1;
+    }
+	.project5:hover .photo5{
+	opacity:0.3;
+    }
+
+    .project5:hover .t5{
+	opacity:1;
+    }
+	.project6:hover .photo6{
+	opacity:0.3;
+    }
+
+    .project6:hover .t6{
+	opacity:1;
+    }
+	.project7:hover .photo7{
+	opacity:0.3;
+    }
+
+    .project7:hover .t7{
+	opacity:1;
+    }
+	.project8:hover .photo8{
+	opacity:0.3;
+    }
+
+    .project8:hover .t8{
+	opacity:1;
+    }
+	.foottext{
+		font-size:16px;
+		text-align:center;
+		padding-top:50px;
+		margin-top:5%;
+		color:rgba(91,45,45,1.00);
+	}
+	.foot{
+		width:100%;
+		height:100px;
+		background-color:rgba(249,228,220,1.00);
+	}
+	.footmenuul{
+		display:none;
+	}
+}
